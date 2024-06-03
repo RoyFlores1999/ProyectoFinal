@@ -1,0 +1,107 @@
+body {
+  background-color: white;  /* Para dar color al fondo de la pagina web*/
+    
+}
+.borde1{
+    background-color: rgba(29, 16, 209, 0.904);  /*-- Para colocar el GIF en el borde */
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.borde2{         /*-- Para dar color al borde donde estan los cursos */
+  background-color:rgb(73, 66, 66);
+   width: 100%;
+   height: 100%;
+}
+
+.borde3{     /*-- Para dar color al borde de servicios */
+  background-color:rgba(4, 42, 114, 0.904);
+}
+
+
+
+.boton{                          /*--Para dar formato al boton de redireccion */
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 10px;
+}
+  
+    
+
+.justificadotexto{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  
+}
+  
+
+
+.textos{
+    align-self: center;     /* Para dar color al texto */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.textoderecha{
+  padding-left: 60px;
+  line-height: 0.2; /* Establece la altura entre parrafos*/
+}
+
+
+  
+h1,h4 {
+    color: hsl(0, 33%, 99%); /* color del texto */
+    text-shadow: 1px 2px 2px hsla(59, 100%, 50%, 0.897); /* sombra del texto con desplazamiento en X y Y y desenfoque */
+  }
+  
+.carousel {       /* Para dar movimento a las imagenes de derecha a izquierda */
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+
+  }
+  
+  .slide {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    animation: slide 25s infinite;
+  }
+  
+  @keyframes slide {
+    20% {transform: translateX(0);}
+    25% {transform: translateX(-100%);}
+    50% {transform: translateX(-200%);}
+    60% {transform: translateX(-300%,);}
+    90% {transform: translateX(-200%);}
+  
+  }
+
+  .imagen-circular {   /* Formato para la imagen de los cursos ofrecidos */
+    border-radius: 5% /* Ajusta el borde para la imagen */
+}
+
+
+.columnas{
+  flex: 20px;
+  padding: 5px;
+}
+
+.Borde-imagen{    /* Para dar borde a las imagenes de galeria */
+  border: 7px solid rgba(1, 188, 245, 0.932);
+}
+
+
+
+  
+  
+
+  
+
+  
+
+
+
+
